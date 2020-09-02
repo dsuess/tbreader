@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "tbreader"
-version = "1.0.0"
+version = "1.0.1"
 description = "A simple parser for tensorboard files"
 authors = ["Daniel Suess <daniel@dsuess.me>"]
 license = "Apache License 2.0"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 protobuf = ">=3.8.0"
 
 [tool.poetry.dev-dependencies]
